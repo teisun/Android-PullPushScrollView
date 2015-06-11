@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <tomcat.example.PullPushLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/rl_top"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp810" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lol"
+                     />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ll_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp2000"
+                android:layout_below="@id/rl_top"
+                android:background="@color/white"
+                 >
+
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp300"
+                    android:scaleType="fitXY"
+                    android:layout_width="@dimen/dp210"
+                    android:layout_height="@dimen/dp210"
+                    android:src="@drawable/icon_club"
+                   />
+         
+            </RelativeLayout>
+        </RelativeLayout>
+    </tomcat.example.PullPushLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp150"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="@dimen/dp120"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp40"
+            android:background="@drawable/bg_circle"
+            android:src="@drawable/btn_icon_back" />
+
+        <ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="@dimen/dp120"
+            android:layout_height="@dimen/dp120"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp40"
+            android:background="@drawable/bg_circle"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_icon_shared" />
+
+
+        <View
+            android:id="@+id/line_nav_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+            android:layout_alignParentBottom="true"
+            android:background="@color/DCDCDC" />
+    </RelativeLayout>
+
+</RelativeLayout>

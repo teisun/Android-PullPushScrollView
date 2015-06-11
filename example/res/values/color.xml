@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="C78C369">#e678C369</color>
+    <color name="FAFAFA">#fafafa</color>
+    <color name="C8C8C8">#c8c8c8</color>
+    <color name="FF555A">#ff555a</color>
+    <color name="C828282">#828282</color>
+    <color name="ordertext">#0082ff</color>
+    <color name="C646464">#646464</color>
+    <color name="C505050">#505050</color>
+    <color name="CF5F5F5">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_10">#E5FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparentblack">#90000000</color>
+    <color name="transparentblack80">#33000000</color>
+    <color name="transparentblack70">#4c000000</color>
+    <color name="transparentblack30">#B2000000</color>
+    <color name="transparentblack20">#CC000000</color>
+    <color name="transparentblack00">#FF000000</color>
+     <color name="transblack">#b6000000</color>
+    <color name="transparentwhite">#40ffffff</color>
+    <color name="black">#000000</color>
+    <color name="datetitleblack">#505050</color>
+    <color name="datetitleblacktow">#909090</color>
+    <color name="greytow">#969696</color>
+    <color name="DCDCDC">#dcdcdc</color>
+    <color name="ECECEC">#ececec</color>
+    <color name="F0F0F0">#f0f0f0</color>
+    <color name="C666666">#666666</color>
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="C80000000">#80000000</color>
+    <color name="FF545A">#FF545A</color>
+    <color name="TRB4AA6E">#e6b4aa6e</color>
+    <color name="TRFF555A">#e6ff555a</color>
+    <color name="C32A519">#32a519</color>
+	<color name="c8c8c8">#c8c8c8</color>
+	<color name="C969696">#969696</color>
+    
+</resources>
