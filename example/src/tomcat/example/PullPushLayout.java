@@ -176,6 +176,9 @@ public class PullPushLayout extends ScrollView {
     @Override
     protected void onScrollChanged(int l, int t, int oldl, int oldt) {
         super.onScrollChanged(l, t, oldl, oldt);
+        if (t > range) {
+            return;
+        } 
             float percent = animateScroll(t);
             
             animateUpSlide(t);
